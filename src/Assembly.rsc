@@ -1,6 +1,6 @@
 module Assembly
 
-import demo::lang::Pico::Abstract;
+import Abstract;
 
 public data Instr =
        dclNat(PicoId Id)    // Reserve a memory location for a natural variable

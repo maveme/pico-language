@@ -1,4 +1,3 @@
-// tag::module[]
 module Compile
 
 import Prelude;
@@ -88,5 +87,3 @@ public Instrs compileProgram(PROGRAM P){ // <8>
 }
 
 public Instrs compileProgram(str txt) = compileProgram(load(txt));
-// end::module[]
-

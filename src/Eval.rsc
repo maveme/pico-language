@@ -66,7 +66,7 @@ VENV evalStats(list[STATEMENT] Stats1, VENV env) {
 // Eval declarations
 
 VENV evalDecls(list[DECL] Decls) =
-    ( Id : (tp == demo::lang::Pico::Abstract::natural() ? natval(0) : strval(""))  
+    ( Id : (tp == Abstract::natural() ? natval(0) : strval(""))  
     | decl(PicoId Id, TYPE tp) <- Decls
     );
 
@@ -80,6 +80,4 @@ public VENV evalProgram(PROGRAM P){
     throw "Cannot happen";
 }
 
-public VENV evalProgram(str txt) = evalProgram(load(txt));
-// end::module[]
-    
+public VENV evalProgram(str txt) = evalProgram(load(txt));    

@@ -53,5 +53,3 @@ CFGraph cflowProgram(PROGRAM P:program(list[DECL] Decls, list[STATEMENT] Series)
 }
 
 public CFGraph cflowProgram(str txt) = cflowProgram(load(txt)); // <8>
-// end::module[]
-
