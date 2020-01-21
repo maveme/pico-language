@@ -1,5 +1,4 @@
-// tag::module[]
-module demo::lang::Pico::Uninit
+module Uninit
 
 import Prelude;
 import Abstract;
@@ -24,4 +23,3 @@ public set[Occurrence] uninitProgram(PROGRAM P) {
 }
 
 public set[Occurrence] uninitProgram(str txt) = uninitProgram(load(txt)); // <5>
-// end::module[]

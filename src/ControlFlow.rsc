@@ -1,5 +1,4 @@
-// tag::module[]
-module demo::lang::Pico::ControlFlow
+module ControlFlow
 
 import Prelude;
 import analysis::graphs::Graph;

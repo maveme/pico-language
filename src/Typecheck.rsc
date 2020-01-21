@@ -1,5 +1,4 @@
-// tag::module[]
-module demo::lang::Pico::Typecheck
+module Typecheck
 
 import Prelude;
 import Abstract;
@@ -91,5 +90,3 @@ public TENV checkProgram(PROGRAM P){ // <13>
 }
                                                          // <14>
 public list[tuple[loc l, str msg]] checkProgram(str txt) = checkProgram(load(txt)).errors;
-// end::module[]
-    

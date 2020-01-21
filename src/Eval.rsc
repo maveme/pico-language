@@ -1,5 +1,4 @@
-// tag::module[]
-module demo::lang::Pico::Eval
+module Eval
 
 import Prelude;
 import Abstract;

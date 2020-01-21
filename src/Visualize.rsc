@@ -1,5 +1,4 @@
-// tag::module[]
-module demo::lang::Pico::Visualize
+module Visualize
 
 //import Prelude;
 //import vis::Figure;
@@ -57,4 +56,3 @@ module demo::lang::Pico::Visualize
 //       nodes = [visNode(n) | n <- nodeSet];
 //       return graph(nodes, edges, hint("layered"), gap(20));
 //}
-// end::module[]
